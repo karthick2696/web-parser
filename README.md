@@ -13,7 +13,7 @@ Make sure you have docker installed on your machine.
 Clone the repository:
 
 ```bash
-git clone https://github.com/karthick2696/web-parser
+git clone https://github.com/karthick2696/web-parser.git
 ```
 
 Changing Directory (cd) to the Repository:
