@@ -68,16 +68,29 @@ Copy container id
 
 #### Step 2:
 
-Copy html files from docker container based on container-id using below commend 
+- Copy html files from docker container based on container-id using below commend 
+- Replace container-id by value we copied at first step 
 
 ```bash
 docker cp container-id:/app/. ./output
 ```
-Replace container-id by value we copied at first step 
 
+#### Step 3:
+
+ - Files will be moved to output folder of your local code repo
+ - nevigate to output folder to view html files using below commends 
+
+```bash
+cd output
+```
+
+```bash
+ls
+```
+   
 Output :
 
-Files will be moved to output folder of your local code repo and just nevigate to output folder to view html files like below in image 
+Attached image reference for all three steps 
 
 <img width="886" alt="image" src="https://github.com/karthick2696/web-parser/assets/30376444/cb471b42-9294-49c7-b571-f578c61f195b">
 
